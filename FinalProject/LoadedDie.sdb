@@ -1,0 +1,204 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+"16 C:\Users\leeee\Desktop\TermProject\FinalProject.c
+[v F1459 `(v  1 t 0 ]
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\aldiv.c
+[v ___aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\almod.c
+[v ___almod `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\awmod.c
+[v ___awmod `(i  1 e 2 0 ]
+"16 C:\Users\leeee\Desktop\TermProject\FinalProject.c
+[v _IntServe `I(v  1 e 0 0 ]
+"33
+[v _main `(v  1 e 0 0 ]
+"16 C:\Users\leeee\Desktop\TermProject\LCD_portD.c
+[v _Wait_ms `(v  1 e 0 0 ]
+"25
+[v _LCD_Pause `(v  1 e 0 0 ]
+"32
+[v _LCD_Strobe `(v  1 e 0 0 ]
+"44
+[v _LCD_Inst `(v  1 e 0 0 ]
+"54
+[v _LCD_Move `(v  1 e 0 0 ]
+"62
+[v _LCD_Write `(v  1 e 0 0 ]
+"73
+[v _LCD_Init `(v  1 e 0 0 ]
+"87
+[v _LCD_Out `(v  1 e 0 0 ]
+"90 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _ADCON1 `Nuc  1 e 1 @4033 ]
+"115
+[v _SPBRG `Nuc  1 e 1 @4015 ]
+"117
+[v _TXREG `VNuc  1 e 1 @4013 ]
+"118
+[v _TXSTA `VNuc  1 e 1 @4012 ]
+"119
+[v _RCSTA `VNuc  1 e 1 @4011 ]
+"133
+[v _TRISE `VNuc  1 e 1 @3990 ]
+"134
+[v _TRISD `VNuc  1 e 1 @3989 ]
+"136
+[v _TRISC `VNuc  1 e 1 @3988 ]
+"137
+[v _TRISB `VNuc  1 e 1 @3987 ]
+"138
+[v _TRISA `VNuc  1 e 1 @3986 ]
+"148
+[v _PORTD `VNuc  1 e 1 @3971 ]
+"167
+[v _GIE `Nb  1 e 0 @32663 ]
+"175
+[v _INTEDG2 `Nb  1 e 0 @32652 ]
+"176
+[v _INTEDG1 `Nb  1 e 0 @32653 ]
+"181
+[v _INT1IF `VNb  1 e 0 @32640 ]
+"182
+[v _INT2IF `VNb  1 e 0 @32641 ]
+"183
+[v _INT1IE `Nb  1 e 0 @32643 ]
+"184
+[v _INT2IE `Nb  1 e 0 @32644 ]
+"338
+[v _BRG16 `Nb  1 e 0 @32195 ]
+"402
+[v _TRMT `VNb  1 e 0 @32097 ]
+"403
+[v _BRGH `Nb  1 e 0 @32098 ]
+"405
+[v _SYNC `Nb  1 e 0 @32100 ]
+"491
+[v _TXIE `Nb  1 e 0 @31980 ]
+"492
+[v _RCIE `Nb  1 e 0 @31981 ]
+"540
+[v _TRISB1 `VNb  1 e 0 @31897 ]
+"541
+[v _TRISB2 `VNb  1 e 0 @31898 ]
+"617
+[v _RD1 `VNb  1 e 0 @31769 ]
+"618
+[v _RD2 `VNb  1 e 0 @31770 ]
+"619
+[v _RD3 `VNb  1 e 0 @31771 ]
+"637
+[v _RB0 `VNb  1 e 0 @31752 ]
+"638
+[v _RB1 `VNb  1 e 0 @31753 ]
+"639
+[v _RB2 `VNb  1 e 0 @31754 ]
+"5 C:\Users\leeee\Desktop\TermProject\FinalProject.c
+[v _d5 `i  1 e 2 @0 ]
+[v _temp `i  1 e 2 @2 ]
+[v _X `i  1 e 2 @4 ]
+[v _Y `i  1 e 2 @6 ]
+"33
+[v _main `(v  1 e 0 0 ]
+{
+"95
+} 0
+"54 C:\Users\leeee\Desktop\TermProject\LCD_portD.c
+[v _LCD_Move `(v  1 e 0 0 ]
+{
+[v _Row `uc  1 p 1 0 ]
+[v _Col `uc  1 p 1 1 ]
+"59
+} 0
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\awmod.c
+[v ___awmod `(i  1 e 2 0 ]
+{
+"6
+[v _sign `uc  1 a 1 0 ]
+[v _counter `uc  1 a 1 1 ]
+"5
+[v _dividend `i  1 p 2 0 ]
+[v _divisor `i  1 p 2 2 ]
+"30
+} 2
+"73 C:\Users\leeee\Desktop\TermProject\LCD_portD.c
+[v _LCD_Init `(v  1 e 0 0 ]
+{
+"83
+} 0
+"87
+[v _LCD_Out `(v  1 e 0 0 ]
+{
+"88
+[v _i `uc  1 a 1 0 ]
+[v _A `[10]uc  1 a 10 1 ]
+"87
+[v _DATA `l  1 p 4 0 ]
+[v _D `uc  1 p 1 4 ]
+[v _N `uc  1 p 1 5 ]
+"103
+} 11
+"62
+[v _LCD_Write `(v  1 e 0 0 ]
+{
+[v _c `uc  1 p 1 0 ]
+"69
+} 0
+"44
+[v _LCD_Inst `(v  1 e 0 0 ]
+{
+[v _c `uc  1 p 1 0 ]
+"51
+} 0
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\aldiv.c
+[v ___aldiv `(l  1 e 4 0 ]
+{
+"7
+[v _counter `uc  1 a 1 0 ]
+[v _sign `uc  1 a 1 1 ]
+"6
+[v _quotient `l  1 a 4 2 ]
+"5
+[v _dividend `l  1 p 4 0 ]
+[v _divisor `l  1 p 4 4 ]
+"37
+} 6
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\almod.c
+[v ___almod `(l  1 e 4 0 ]
+{
+"6
+[v _sign `uc  1 a 1 0 ]
+[v _counter `uc  1 a 1 1 ]
+"5
+[v _dividend `l  1 p 4 0 ]
+[v _divisor `l  1 p 4 4 ]
+"30
+} 2
+"32 C:\Users\leeee\Desktop\TermProject\LCD_portD.c
+[v _LCD_Strobe `(v  1 e 0 0 ]
+{
+"39
+} 0
+"16
+[v _Wait_ms `(v  1 e 0 0 ]
+{
+"17
+[v _i `ui  1 a 2 0 ]
+[v _j `ui  1 a 2 2 ]
+"16
+[v _X `ui  1 p 2 0 ]
+"21
+} 4
+"25
+[v _LCD_Pause `(v  1 e 0 0 ]
+{
+"26
+[v _x `uc  1 a 1 0 ]
+"28
+} 1
+"16 C:\Users\leeee\Desktop\TermProject\FinalProject.c
+[v _IntServe `I(v  1 e 0 0 ]
+{
+"26
+} 0
